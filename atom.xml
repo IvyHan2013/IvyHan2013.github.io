@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-12T07:45:08.668Z</updated>
+  <updated>2017-12-13T00:44:25.679Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Web Information Management 0</title>
+    <title>Web Information Management 0 - Overview</title>
     <link href="http://yoursite.com/2017/12/11/ir-0/"/>
     <id>http://yoursite.com/2017/12/11/ir-0/</id>
     <published>2017-12-12T07:33:21.978Z</published>
-    <updated>2017-12-12T07:45:08.668Z</updated>
+    <updated>2017-12-13T00:44:25.679Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Web-Information-Management系列-0"><a href="#Web-Information-Management系列-0" class="headerlink" title="Web Information Management系列 0"></a>Web Information Management系列 0</h1><p>非常有幸这学期上了<a href="http://oak.cs.ucla.edu/~cho/" target="_blank" rel="noopener">Prof.Cho</a>的Web Information Management 这门课。终于忙完了final趁着自己还能访问他的课程回放，赶紧写一些课程总结。真的是非常棒的一节课了，很希望自己以后也可以在相关的领域工作吧。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Web-Information-Management系列-0"><a href="#Web-Information-Management系列-0" class="headerlink" title="Web Information Management系列 0"></a>Web Information Management系列 0</h1><p>非常有幸这学期上了<a href="http://oak.cs.ucla.edu/~cho/" target="_blank" rel="noopener">Prof.Cho</a>的Web Information Management 这门课。终于忙完了final趁着自己还能访问他的课程回放（趁着自己还没忘），赶紧写一些课程总结。真的是非常棒的一节课了，很希望自己以后也可以在相关的领域工作吧。</p><p>搜索引擎系统主要分成两个主要的部分，crawling 和 retrieval。这个系列的博客我主要专注于讨论一下retrieval的部分</p>]]></content>
     
     <summary type="html">
     
