@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-13T00:58:39.062Z</updated>
+  <updated>2017-12-13T01:10:26.015Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2017/12/11/ir-0/"/>
     <id>http://yoursite.com/2017/12/11/ir-0/</id>
     <published>2017-12-12T07:33:21.978Z</published>
-    <updated>2017-12-13T00:58:39.062Z</updated>
+    <updated>2017-12-13T01:10:26.015Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Web-Information-Management系列-0"><a href="#Web-Information-Management系列-0" class="headerlink" title="Web Information Management系列 0"></a>Web Information Management系列 0</h1><p>非常有幸这学期上了<a href="http://oak.cs.ucla.edu/~cho/" target="_blank" rel="noopener">Prof.Cho</a>的Web Information Management 这门课。终于忙完了final趁着自己还能访问他的课程回放，赶紧写一些课程总结。真的是非常棒的一节课了，讲的很全面很有逻辑，也给了一些可以让人继续展开学习的地方。<br><a id="more"></a></p><p>搜索引擎系统主要分成两个主要的部分，crawling 和 retrieval。这个系列的博客我主要专注于讨论一下retrieval的部分</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Web-Information-Management系列-0"><a href="#Web-Information-Management系列-0" class="headerlink" title="Web Information Management系列 0"></a>Web Information Management系列 0</h1><p>非常有幸这学期上了<a href="http://oak.cs.ucla.edu/~cho/" target="_blank" rel="noopener">Prof.Cho</a>的Web Information Management 这门课。终于忙完了final趁着自己还能访问他的课程回放，赶紧写一些课程总结。真的是非常棒的一节课了，讲的很全面很有逻辑，也给了一些可以让人继续展开学习的地方。<br><a id="more"></a></p><p>搜索引擎系统主要分成两个主要的部分，crawling 和 retrieval。这个系列的博客我主要专注于讨论一下retrieval的部分</p><p>$E = mc^2$</p>]]></content>
     
     <summary type="html">
     
