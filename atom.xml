@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-14T07:10:39.325Z</updated>
+  <updated>2017-12-15T08:13:38.528Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>dairy-1213</title>
+    <title>Dairy-2017-12-14</title>
+    <link href="http://yoursite.com/2017/12/14/dairy-1214/"/>
+    <id>http://yoursite.com/2017/12/14/dairy-1214/</id>
+    <published>2017-12-14T08:40:22.148Z</published>
+    <updated>2017-12-15T08:13:38.528Z</updated>
+    
+    <content type="html"><![CDATA[<p>每日学习日记 2017-12-14<br><a id="more"></a><br>今日任务：<br>总结链表题目<br>写掉课程prj report<br>添加个人简历这部分report</p><p>完成情况：<br>只写掉了report<br>没有完成链表总结</p><p>每次写report的时候都觉得自己大概真的不适合读博，唉，语言表达能力也是能力的一种啊，继续加油吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每日学习日记 2017-12-14&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Dairy-2017-12-13</title>
     <link href="http://yoursite.com/2017/12/13/dairy-1213/"/>
     <id>http://yoursite.com/2017/12/13/dairy-1213/</id>
     <published>2017-12-13T08:11:24.148Z</published>
-    <updated>2017-12-14T07:10:39.325Z</updated>
+    <updated>2017-12-14T08:40:05.776Z</updated>
     
     <content type="html"><![CDATA[<p>每日学习日记 2017-12-12<br><a id="more"></a><br>今日任务：<br>学习list里面链表部分全部做完<br>（1214任务写这部分总结<br>晚上写211 report</p><p>完成情况：<br>链表题做完</p>]]></content>
     
