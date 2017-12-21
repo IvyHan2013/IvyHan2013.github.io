@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-18T06:28:58.208Z</updated>
+  <updated>2017-12-21T08:40:08.156Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,78 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Dairy-2017-12-21</title>
+    <link href="http://yoursite.com/2017/12/21/dairy-1221/"/>
+    <id>http://yoursite.com/2017/12/21/dairy-1221/</id>
+    <published>2017-12-21T08:29:58.340Z</published>
+    <updated>2017-12-21T08:40:08.156Z</updated>
+    
+    <content type="html"><![CDATA[<p>每日学习日记 2017-12-20<br><a id="more"></a><br>回溯的经典题看了个七七八八了<br>今天做点应用</p><p>216    Combination Sum III<br>377 Combination Sum IV<br>17 Letter Combinations of a Phone Number<br>131 Palindrome Partitioning<br>51 N-Queens（hard）<br>52     N-Queens II （hard）</p><p>复习 subset 12<br>permutation12<br>combination<br>241 Different Ways to Add Parentheses<br>Unique Binary Search Trees 1 2 </p><p>选做：<br>10 Regular Expression Matching（hard）<br>282 Expression Add Operators</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每日学习日记 2017-12-20&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Dairy-2017-12-20</title>
+    <link href="http://yoursite.com/2017/12/20/dairy-1220/"/>
+    <id>http://yoursite.com/2017/12/20/dairy-1220/</id>
+    <published>2017-12-20T20:26:39.551Z</published>
+    <updated>2017-12-21T08:29:49.728Z</updated>
+    
+    <content type="html"><![CDATA[<p>每日学习日记 2017-12-20<br><a id="more"></a><br>今天收到了Hulu的约面试通知，约了一个月之后。希望能约成功吧。<br>加油加油希望接下来努力！顺利！！<br>今日任务：<br>跟学长确定一下recommendation的项目<br>继续做回溯的题！今天要把回溯吃透！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每日学习日记 2017-12-20&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Dairy-2017-12-19</title>
+    <link href="http://yoursite.com/2017/12/19/dairy-1219/"/>
+    <id>http://yoursite.com/2017/12/19/dairy-1219/</id>
+    <published>2017-12-19T08:04:37.961Z</published>
+    <updated>2017-12-20T20:26:20.751Z</updated>
+    
+    <content type="html"><![CDATA[<p>每日学习日记 2017-12-19<br><a id="more"></a><br>今日任务：<br>leetcode 107-110最少<br>foo 到level 3  完成<br>主要做回溯部分</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每日学习日记 2017-12-19&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Dairy-2017-12-18</title>
+    <link href="http://yoursite.com/2017/12/18/dairy-12-18/"/>
+    <id>http://yoursite.com/2017/12/18/dairy-12-18/</id>
+    <published>2017-12-19T07:38:02.654Z</published>
+    <updated>2017-12-19T07:44:22.019Z</updated>
+    
+    <content type="html"><![CDATA[<p>每日学习日记 2017-12-18<br><a id="more"></a></p><p>今天复习了快速排序，快速选择算法<br>真的感觉一遇到递归相关问题就很容易炸毛。。</p><p>晚上做了一下gg的foobar，感觉自己还是很弱啊。。。<br>明天继续做回溯算法相关，如果有时间复习一下二叉树</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每日学习日记 2017-12-18&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Dairy-2017-1217</title>
