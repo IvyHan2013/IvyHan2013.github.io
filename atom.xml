@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-21T08:40:08.156Z</updated>
+  <updated>2017-12-24T18:24:36.962Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,83 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>操作系统复习笔记 01</title>
+    <link href="http://yoursite.com/2017/12/24/OS-1/"/>
+    <id>http://yoursite.com/2017/12/24/OS-1/</id>
+    <published>2017-12-24T18:18:09.840Z</published>
+    <updated>2017-12-24T18:24:36.962Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="操作系统做了那些工作"><a href="#操作系统做了那些工作" class="headerlink" title="操作系统做了那些工作"></a>操作系统做了那些工作</h2><p>在整个的计算机系统中，操作系统究竟扮演着什么角色，首先要从计算机系统大概就分为那些组成开始说起<br>计算机系统大概分为 hardware</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;操作系统做了那些工作&quot;&gt;&lt;a href=&quot;#操作系统做了那些工作&quot; class=&quot;headerlink&quot; title=&quot;操作系统做了那些工作&quot;&gt;&lt;/a&gt;操作系统做了那些工作&lt;/h2&gt;&lt;p&gt;在整个的计算机系统中，操作系统究竟扮演着什么角色，首先要从计算机系统大概就分
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Dairy-2017-12-24</title>
+    <link href="http://yoursite.com/2017/12/24/dairy-1224/"/>
+    <id>http://yoursite.com/2017/12/24/dairy-1224/</id>
+    <published>2017-12-24T08:07:20.502Z</published>
+    <updated>2017-12-24T08:09:55.393Z</updated>
+    
+    <content type="html"><![CDATA[<p>和学长聊了一下感觉收获颇丰<br>从今天开始要开始复习基础课啦！<br>先从操作系统开始吧<br>白天用心刷题，晚上回来复习基础课<br>明天任务：<br>Strobogrammatic 数生成</p><pre><code>- Strobogrammatic Number 1 2 3</code></pre><p>DP题目：</p><p>复习任务：<br>写完一篇读书笔记</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;和学长聊了一下感觉收获颇丰&lt;br&gt;从今天开始要开始复习基础课啦！&lt;br&gt;先从操作系统开始吧&lt;br&gt;白天用心刷题，晚上回来复习基础课&lt;br&gt;明天任务：&lt;br&gt;Strobogrammatic 数生成&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Strobogrammatic Number
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Dairy-2017-12-22</title>
+    <link href="http://yoursite.com/2017/12/22/dairy-1222/"/>
+    <id>http://yoursite.com/2017/12/22/dairy-1222/</id>
+    <published>2017-12-23T07:33:20.378Z</published>
+    <updated>2017-12-24T08:07:10.743Z</updated>
+    
+    <content type="html"><![CDATA[<p>这周周末任务全面的复习一下回溯法：</p><ol><li>排列组合系列：<ul><li>Subsets 1 2 </li><li>Combination，Combination Sum 1 2 3 4 </li><li>Permutation 1 2 </li></ul></li><li>N 皇后 1 2 </li><li>数独</li><li>Word Ladder 1 2 </li><li>Number of Ways<ul><li>Android Unlock Patterns</li><li>Decode Ways</li></ul></li><li>DFS flood filling<ul><li>Word Search </li><li>Number of Islands</li><li>Surrounded Regions</li></ul></li><li>Strobogrammatic 数生成<ul><li>Strobogrammatic Number 1 2 3</li></ul></li><li>String 构造式<ul><li>Generalized Abbreviation</li><li>Remove Invalid Parentheses</li><li>Expression Add Operators</li></ul></li><li>Word Pattern I &amp; II</li><li>枚举法<ul><li>Generate Parentheses</li><li>Restore IP Addresses</li><li>Palindrome Partitioning</li><li>Letter Combinations of a Phone Number </li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这周周末任务全面的复习一下回溯法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;排列组合系列：&lt;ul&gt;
+&lt;li&gt;Subsets 1 2 &lt;/li&gt;
+&lt;li&gt;Combination，Combination Sum 1 2 3 4 &lt;/li&gt;
+&lt;li&gt;Permutation 1 2 &lt;/li&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Dairy-2017-12-21</title>
     <link href="http://yoursite.com/2017/12/21/dairy-1221/"/>
     <id>http://yoursite.com/2017/12/21/dairy-1221/</id>
     <published>2017-12-21T08:29:58.340Z</published>
-    <updated>2017-12-21T08:40:08.156Z</updated>
+    <updated>2017-12-22T07:28:05.585Z</updated>
     
-    <content type="html"><![CDATA[<p>每日学习日记 2017-12-20<br><a id="more"></a><br>回溯的经典题看了个七七八八了<br>今天做点应用</p><p>216    Combination Sum III<br>377 Combination Sum IV<br>17 Letter Combinations of a Phone Number<br>131 Palindrome Partitioning<br>51 N-Queens（hard）<br>52     N-Queens II （hard）</p><p>复习 subset 12<br>permutation12<br>combination<br>241 Different Ways to Add Parentheses<br>Unique Binary Search Trees 1 2 </p><p>选做：<br>10 Regular Expression Matching（hard）<br>282 Expression Add Operators</p>]]></content>
+    <content type="html"><![CDATA[<p>每日学习日记 2017-12-20<br><a id="more"></a><br>回溯的经典题看了个七七八八了<br>今天做点应用</p><ol><li>216    Combination Sum III (Done)</li><li>377 Combination Sum IV (Done)</li><li>17 Letter Combinations of a Phone Number(Done)</li><li>131 Palindrome Partitioning(Done)</li><li>51 N-Queens（hard）（Done)</li><li>52     N-Queens II （hard）(Done)</li></ol><p>复习 </p><ol><li>subset 12 (Done)</li><li>permutation12 (Done)</li><li>combination (Done)</li><li>241 Different Ways to Add Parentheses(Done)</li></ol><p>选做：</p><ol><li>10 Regular Expression Matching（hard）</li><li>282 Expression Add Operators</li></ol>]]></content>
     
     <summary type="html">
     
