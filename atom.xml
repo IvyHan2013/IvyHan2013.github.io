@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://www.yutong-han.net/"/>
   <updated>2017-12-28T07:26:04.799Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://www.yutong-han.net/</id>
   
   <author>
     <name>Yutong Han</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>OS-2</title>
-    <link href="http://yoursite.com/2017/12/27/OS-2/"/>
-    <id>http://yoursite.com/2017/12/27/OS-2/</id>
+    <link href="http://www.yutong-han.net/2017/12/27/OS-2/"/>
+    <id>http://www.yutong-han.net/2017/12/27/OS-2/</id>
     <published>2017-12-28T07:26:04.000Z</published>
     <updated>2017-12-28T07:26:04.799Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Dairy-2017-12-27</title>
-    <link href="http://yoursite.com/2017/12/27/dairy-1227/"/>
-    <id>http://yoursite.com/2017/12/27/dairy-1227/</id>
+    <link href="http://www.yutong-han.net/2017/12/27/dairy-1227/"/>
+    <id>http://www.yutong-han.net/2017/12/27/dairy-1227/</id>
     <published>2017-12-27T09:35:03.527Z</published>
     <updated>2017-12-27T09:42:30.371Z</updated>
     
@@ -50,8 +50,8 @@
   
   <entry>
     <title>Dairy-2017-12-26</title>
-    <link href="http://yoursite.com/2017/12/26/dairy-1226/"/>
-    <id>http://yoursite.com/2017/12/26/dairy-1226/</id>
+    <link href="http://www.yutong-han.net/2017/12/26/dairy-1226/"/>
+    <id>http://www.yutong-han.net/2017/12/26/dairy-1226/</id>
     <published>2017-12-26T08:27:40.184Z</published>
     <updated>2017-12-27T09:35:52.614Z</updated>
     
@@ -68,8 +68,8 @@
   
   <entry>
     <title>Dairy-2017-12-25</title>
-    <link href="http://yoursite.com/2017/12/25/dairy-1225/"/>
-    <id>http://yoursite.com/2017/12/25/dairy-1225/</id>
+    <link href="http://www.yutong-han.net/2017/12/25/dairy-1225/"/>
+    <id>http://www.yutong-han.net/2017/12/25/dairy-1225/</id>
     <published>2017-12-25T08:43:58.828Z</published>
     <updated>2017-12-26T08:29:02.206Z</updated>
     
@@ -86,10 +86,10 @@
   
   <entry>
     <title>操作系统复习笔记 01</title>
-    <link href="http://yoursite.com/2017/12/24/OS-1/"/>
-    <id>http://yoursite.com/2017/12/24/OS-1/</id>
+    <link href="http://www.yutong-han.net/2017/12/24/OS-1/"/>
+    <id>http://www.yutong-han.net/2017/12/24/OS-1/</id>
     <published>2017-12-24T18:18:09.840Z</published>
-    <updated>2017-12-27T09:34:56.862Z</updated>
+    <updated>2017-12-28T07:27:45.000Z</updated>
     
     <content type="html"><![CDATA[<p>操作系统复习笔记 操作系统的任务和计算机系统组织<br><a id="more"></a></p><h2 id="操作系统做了那些工作"><a href="#操作系统做了那些工作" class="headerlink" title="操作系统做了那些工作"></a>操作系统做了那些工作</h2><p>在整个的计算机系统中，操作系统究竟扮演着什么角色，首先要从计算机系统大概就分为那些组成开始说起<br>计算机系统大概分为 <strong>hardware</strong>, <strong>operating system</strong>, <strong>application programs</strong>以及<strong>user</strong></p><p>从系统的角度上看，操作系统是 <strong><em>resource allocator</em></strong> 。计算机系统中有着大量的resource例如CPU 时间，memory space, file-storage space I/O device.操作系统的作用就是当系统发生冲突<strong>conflict</strong>的时候，操作系统要公平有效的对资源进行分配。<br>另一种看法是操作系统是<strong>control program</strong>， 操作系统需要管理各种I/O设备。</p><h2 id="操作系统定义"><a href="#操作系统定义" class="headerlink" title="操作系统定义"></a>操作系统定义</h2><p>一个比较常见的定义是将操作系统看作是一个一直运行的被称为<strong>kernel</strong>的程序。（除了kernel之外计算机还有两种程序，一种是system programs一种是application prgrams.)</p><h2 id="计算机系统组织"><a href="#计算机系统组织" class="headerlink" title="计算机系统组织"></a>计算机系统组织</h2><p>在探讨操作系统操作之前，需要先了解一下计算机系统的基本结构</p><h4 id="计算机系统操作"><a href="#计算机系统操作" class="headerlink" title="计算机系统操作"></a>计算机系统操作</h4><p>现代计算机又一个或多个CPU和若干设备控制器通过common bus连接而成， common bus提供了对共享内存的访问。 每个设备控制器控制一种特定类型的设备。CPU和设备控制器可以并行工作，同时竞争内存周期。为了确保对共享内存的有序访问，需要内存控制器来协调对内存的访问。</p><p>当打开电源或者重启时，计算机开始运行。这个时间他需要运行一个初始化的程序，bootstrap， bootstrap是一个简单的程序，他一般存储在computer hardware read-only memory<strong>ROM</strong>或者electrically erasable programmable read-only memory（<strong>EEPROM</strong>）。bootstrap需要知道如何加载OS，如何启动执行程序，所以bootstrap程序需要在在kernel中并且放入内存。</p><p>当kernel加载成功并且运行时，他会开启一些服务。其中一些服务不在内核中，他在boot time的时候被加载到内核中。这些进程被称做是<strong>system process</strong>或者<strong>system daemons（守护进程）</strong>。 在Unix系统中 第一个进程是init， 它会开启许多daemons，完成这些过程后系统加载完成，系统等待事务event出现。</p><p>事件的发生通常通过通过硬件或者软件的中断<strong>interrupt</strong>来表示。硬件可随时通过系统总线向CPU发出信号，以触发中断。软件通过执行特别操作如系统调用（system call）也能触发中断</p><p>CPU中断的时候，CPU将暂停它现在在做的事情转到固定的位置去继续执行。该固定位置一般是中断服务程序开始的地方。中断服务开始执行，执行结束后CPU重新执行被中断的计算。</p><p>处理转移的的简单方法是调用一个通用子程序来检查中断信息。接着，该子程序会调用相应的中断处理程序，由于只有少量的预先定义的中断，所以可以使用中断处理子程序的指针表。这样通过指针表可间接调用中断处理子程序，而不需要通过其他中间子程序。 通常，指针表位于低地址内存。这些位置包含各种设备的中断处理子程序地址。这种地址的数组或中断向量（<strong>interrupt vector</strong>） 课通过唯一设备号来索引， 以提供设备的中断处理子程序的地址。</p><p>中断体系结构也保存被中断指令的地址。现代结构返回系统堆栈中的地址。如果中断处理程序需要修改处理器状态，如修改寄存器的值，它必须明确地保存当前状态并在返回前恢复该状态。在处理中断之后，保存的返回地址会装入程序计数器，被中断的计算可以重新开始。</p><h4 id="存储结构"><a href="#存储结构" class="headerlink" title="存储结构"></a>存储结构</h4><p>计算机程序必须在内存（或者随机访问内存random access memory， RAM） 中以便于运行</p><p>内存是处理可以直接访问的唯一大容量存储区域。他通常是用被称为动态随机访问内存 DRAM 的半导体技术实现的，通过一系列的load store指令来交互。</p><p>理想状态下程序和数据都存储在内存中，但是由于<strong>内存太小</strong>，<strong>内存是易失性存储设备，掉电会失去所有内容</strong>所以是不可能的。<br>因此绝大多数计算机都提供secondary storage 作为内存的扩充。</p><h4 id="I-O"><a href="#I-O" class="headerlink" title="I/O"></a>I/O</h4><p>对于大块的数据移动，比如磁盘I/O，会有超载问题。 DMA（direct memory access） 就是为了解决这个问题而设计的。这位这种IO设备设置好缓冲，指针和计数器之后，设备控制器能在本地缓冲和内存之间传送一整块数据，而无需CPU的干预。每块只产生一个中断，来告知设备驱动程序操作已经完成，为不像低速设备那样每个字节产生一个中断。当设备控制器在执行这些操作的时候，CPU可以去完成其他工作。</p><h4 id="集群系统"><a href="#集群系统" class="headerlink" title="集群系统"></a>集群系统</h4><p>集群系统雨多处理器系统不同，它是有两个多多个独立的系统耦合起来的</p><p>一个较为常用的定义是集群计算机共享存储并通过局域网链接，或者更快的内部链接。</p><p>集群通常用来提供高可用性服务</p><p>集群可以是对称的也可以是不对称的。</p><p>非对称集群中，一台机器处于热备份模式，而另一台运行应用程序。热备份主机只监视活动服务器。如果该服务器失效，那么热备份主机会成为先行服务器。</p><p>对于对称集群，两个或多个主机都运行应用程序，他们互相监视。</p>]]></content>
     
@@ -104,8 +104,8 @@
   
   <entry>
     <title>Dairy-2017-12-24</title>
-    <link href="http://yoursite.com/2017/12/24/dairy-1224/"/>
-    <id>http://yoursite.com/2017/12/24/dairy-1224/</id>
+    <link href="http://www.yutong-han.net/2017/12/24/dairy-1224/"/>
+    <id>http://www.yutong-han.net/2017/12/24/dairy-1224/</id>
     <published>2017-12-24T08:07:20.502Z</published>
     <updated>2017-12-24T08:09:55.393Z</updated>
     
@@ -126,8 +126,8 @@
   
   <entry>
     <title>Dairy-2017-12-22</title>
-    <link href="http://yoursite.com/2017/12/22/dairy-1222/"/>
-    <id>http://yoursite.com/2017/12/22/dairy-1222/</id>
+    <link href="http://www.yutong-han.net/2017/12/22/dairy-1222/"/>
+    <id>http://www.yutong-han.net/2017/12/22/dairy-1222/</id>
     <published>2017-12-23T07:33:20.378Z</published>
     <updated>2017-12-24T08:07:10.743Z</updated>
     
@@ -153,8 +153,8 @@
   
   <entry>
     <title>Dairy-2017-12-21</title>
-    <link href="http://yoursite.com/2017/12/21/dairy-1221/"/>
-    <id>http://yoursite.com/2017/12/21/dairy-1221/</id>
+    <link href="http://www.yutong-han.net/2017/12/21/dairy-1221/"/>
+    <id>http://www.yutong-han.net/2017/12/21/dairy-1221/</id>
     <published>2017-12-21T08:29:58.340Z</published>
     <updated>2017-12-22T07:28:05.585Z</updated>
     
@@ -171,8 +171,8 @@
   
   <entry>
     <title>Dairy-2017-12-20</title>
-    <link href="http://yoursite.com/2017/12/20/dairy-1220/"/>
-    <id>http://yoursite.com/2017/12/20/dairy-1220/</id>
+    <link href="http://www.yutong-han.net/2017/12/20/dairy-1220/"/>
+    <id>http://www.yutong-han.net/2017/12/20/dairy-1220/</id>
     <published>2017-12-20T20:26:39.551Z</published>
     <updated>2017-12-21T08:29:49.728Z</updated>
     
@@ -189,8 +189,8 @@
   
   <entry>
     <title>Dairy-2017-12-19</title>
-    <link href="http://yoursite.com/2017/12/19/dairy-1219/"/>
-    <id>http://yoursite.com/2017/12/19/dairy-1219/</id>
+    <link href="http://www.yutong-han.net/2017/12/19/dairy-1219/"/>
+    <id>http://www.yutong-han.net/2017/12/19/dairy-1219/</id>
     <published>2017-12-19T08:04:37.961Z</published>
     <updated>2017-12-20T20:26:20.751Z</updated>
     
@@ -207,8 +207,8 @@
   
   <entry>
     <title>Dairy-2017-12-18</title>
-    <link href="http://yoursite.com/2017/12/18/dairy-12-18/"/>
-    <id>http://yoursite.com/2017/12/18/dairy-12-18/</id>
+    <link href="http://www.yutong-han.net/2017/12/18/dairy-12-18/"/>
+    <id>http://www.yutong-han.net/2017/12/18/dairy-12-18/</id>
     <published>2017-12-19T07:38:02.654Z</published>
     <updated>2017-12-19T07:44:22.019Z</updated>
     
@@ -225,8 +225,8 @@
   
   <entry>
     <title>Dairy-2017-1217</title>
-    <link href="http://yoursite.com/2017/12/17/dairy-1217/"/>
-    <id>http://yoursite.com/2017/12/17/dairy-1217/</id>
+    <link href="http://www.yutong-han.net/2017/12/17/dairy-1217/"/>
+    <id>http://www.yutong-han.net/2017/12/17/dairy-1217/</id>
     <published>2017-12-17T23:30:18.820Z</published>
     <updated>2017-12-18T06:28:58.208Z</updated>
     
@@ -247,8 +247,8 @@
   
   <entry>
     <title>Dairy-2017-12-16</title>
-    <link href="http://yoursite.com/2017/12/16/dairy-1216/"/>
-    <id>http://yoursite.com/2017/12/16/dairy-1216/</id>
+    <link href="http://www.yutong-han.net/2017/12/16/dairy-1216/"/>
+    <id>http://www.yutong-han.net/2017/12/16/dairy-1216/</id>
     <published>2017-12-17T00:35:16.091Z</published>
     <updated>2017-12-17T23:30:28.155Z</updated>
     
@@ -269,8 +269,8 @@
   
   <entry>
     <title>Dairy-2017-12-15</title>
-    <link href="http://yoursite.com/2017/12/15/dairy-1215/"/>
-    <id>http://yoursite.com/2017/12/15/dairy-1215/</id>
+    <link href="http://www.yutong-han.net/2017/12/15/dairy-1215/"/>
+    <id>http://www.yutong-han.net/2017/12/15/dairy-1215/</id>
     <published>2017-12-15T08:15:24.771Z</published>
     <updated>2017-12-16T07:59:42.893Z</updated>
     
@@ -294,8 +294,8 @@
   
   <entry>
     <title>Dairy-2017-12-14</title>
-    <link href="http://yoursite.com/2017/12/14/dairy-1214/"/>
-    <id>http://yoursite.com/2017/12/14/dairy-1214/</id>
+    <link href="http://www.yutong-han.net/2017/12/14/dairy-1214/"/>
+    <id>http://www.yutong-han.net/2017/12/14/dairy-1214/</id>
     <published>2017-12-14T08:40:22.148Z</published>
     <updated>2017-12-15T08:13:38.528Z</updated>
     
@@ -312,8 +312,8 @@
   
   <entry>
     <title>Dairy-2017-12-13</title>
-    <link href="http://yoursite.com/2017/12/13/dairy-1213/"/>
-    <id>http://yoursite.com/2017/12/13/dairy-1213/</id>
+    <link href="http://www.yutong-han.net/2017/12/13/dairy-1213/"/>
+    <id>http://www.yutong-han.net/2017/12/13/dairy-1213/</id>
     <published>2017-12-13T08:11:24.148Z</published>
     <updated>2017-12-14T08:40:05.776Z</updated>
     
@@ -330,8 +330,8 @@
   
   <entry>
     <title>Dairy-2017-12-12</title>
-    <link href="http://yoursite.com/2017/12/12/dairy-1212/"/>
-    <id>http://yoursite.com/2017/12/12/dairy-1212/</id>
+    <link href="http://www.yutong-han.net/2017/12/12/dairy-1212/"/>
+    <id>http://www.yutong-han.net/2017/12/12/dairy-1212/</id>
     <published>2017-12-13T07:16:08.299Z</published>
     <updated>2017-12-13T07:52:41.436Z</updated>
     
@@ -348,8 +348,8 @@
   
   <entry>
     <title>Web Information Management 0 - IR Overview</title>
-    <link href="http://yoursite.com/2017/12/11/ir-0/"/>
-    <id>http://yoursite.com/2017/12/11/ir-0/</id>
+    <link href="http://www.yutong-han.net/2017/12/11/ir-0/"/>
+    <id>http://www.yutong-han.net/2017/12/11/ir-0/</id>
     <published>2017-12-12T07:33:21.978Z</published>
     <updated>2017-12-13T07:23:34.517Z</updated>
     
@@ -373,8 +373,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/12/11/hello-world/"/>
-    <id>http://yoursite.com/2017/12/11/hello-world/</id>
+    <link href="http://www.yutong-han.net/2017/12/11/hello-world/"/>
+    <id>http://www.yutong-han.net/2017/12/11/hello-world/</id>
     <published>2017-12-12T05:50:41.614Z</published>
     <updated>2017-12-12T07:32:41.371Z</updated>
     
