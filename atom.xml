@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yutong-han.net/"/>
-  <updated>2017-12-28T07:26:04.799Z</updated>
+  <updated>2017-12-30T20:06:37.234Z</updated>
   <id>http://www.yutong-han.net/</id>
   
   <author>
@@ -17,13 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>OS-2</title>
-    <link href="http://www.yutong-han.net/2017/12/27/OS-2/"/>
-    <id>http://www.yutong-han.net/2017/12/27/OS-2/</id>
-    <published>2017-12-28T07:26:04.000Z</published>
-    <updated>2017-12-28T07:26:04.799Z</updated>
+    <title>dairy-1229</title>
+    <link href="http://www.yutong-han.net/2017/12/29/dairy-1229/"/>
+    <id>http://www.yutong-han.net/2017/12/29/dairy-1229/</id>
+    <published>2017-12-29T23:27:31.000Z</published>
+    <updated>2017-12-30T20:06:37.234Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>分割类DP</p><ul><li><p>Maximum Subarray</p><ul><li>一个模版</li><li>Math.max(cur+nums[i],nums[i])</li><li>Math.max(cur,max)</li></ul></li><li><p>Maximum Product Subarray</p><ul><li>注意乘法和加法不同在于最大值可能通过最小值乘负数得来，所以要维护最大值和最小值，同时正负的时候要进行你不同操作</li></ul></li></ul></li></ul><ul><li><p>Best Time to Buy and Sell Stock 系列</p><ul><li>I<ul><li>一次买卖： max=Math.max(max,nums[i]-min); min = Math.min(min, nums[i]);</li></ul></li><li>II<ul><li>无数次买卖，只要后面一个比前一个高就买卖</li></ul></li><li>III （需要重做）<ul><li>最多两次买卖</li></ul></li><li>IV  （需要重做）<ul><li>最多k次</li></ul></li></ul></li><li><p>Longest Common Substring </p><ul><li>最长公共子串（要求连续） 扫描一遍即可</li></ul></li><li>Longest Common Subsequence<ul><li>最长公共子序列 <ul><li>方法一DP dp[A.length()][B.length()] dp[i][j]={dp[i-1][j-1]+1 if A[i]=B[j]}{Max(dp[i-1][j],dp[i][j-1])}</li></ul></li></ul></li><li>Longest Continuous Increasing Subsequence<ul><li>套路其实和Maximum Subarray一样但是更简单</li></ul></li><li>Longest Increasing Subsequence<ul><li>方法一dp </li></ul></li><li>Number of LIS<ul><li>保留两个dp数组 </li><li>len[] 和LIS中的dp一样 保存到当前位置的最长增序列的长度</li><li>count[] 保存到当前位置的最长增序列的数量， 如果len[i]==len[j]+1的时候说明有重复的 count[i]+=count[j]</li></ul></li></ul>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;分割类DP&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Maximum Subarray&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个模版&lt;/li&gt;
+&lt;li&gt;Math.max(cur+nums[i],nums[i])&lt;/li&gt;
+&lt;li&gt;Math.max(cur,max)&lt;/li&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统复习笔记 02</title>
+    <link href="http://www.yutong-han.net/2017/12/27/OS-2/"/>
+    <id>http://www.yutong-han.net/2017/12/27/OS-2/</id>
+    <published>2017-12-28T07:26:04.799Z</published>
+    <updated>2017-12-30T20:06:35.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>操作系统复习笔记 操作系统的任务和计算机系统组织<br><a id="more"></a><br><img src="/images/image.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;操作系统复习笔记 操作系统的任务和计算机系统组织&lt;br&gt;
     
     </summary>
     
@@ -35,9 +68,9 @@
     <link href="http://www.yutong-han.net/2017/12/27/dairy-1227/"/>
     <id>http://www.yutong-han.net/2017/12/27/dairy-1227/</id>
     <published>2017-12-27T09:35:03.527Z</published>
-    <updated>2017-12-27T09:42:30.371Z</updated>
+    <updated>2017-12-30T19:58:37.807Z</updated>
     
-    <content type="html"><![CDATA[<p>每日学习日记 2017-12-27<br><a id="more"></a><br>今日任务：<br>OS看完第二章</p><p>继续做DP经典题<br>Flip Game 1 2<br>Nim game<br>Palindrome Partitioning II<br>Burst Balloons<br>Scramble String<br>Minimum Subarray<br>Maximum Subarray<br>Maximum Product Subarray<br>Maximum Subarray II<br>Maximum Subarray III<br>Maximum Subarray Difference<br>Best Time to Buy and Sell Stock 系列<br>Longest Common Subsequence<br>One Edit Distance<br>Edit Distance<br>Minimum insertions to form a palindrome<br>WildCard Matching<br>Regular Expression Mathcing<br>Word Break<br>Word Break II<br>Interleaving String<br>Bomb Enemy</p><p>背包系列</p>]]></content>
+    <content type="html"><![CDATA[<p>每日学习日记 2017-12-27<br><a id="more"></a><br>今日任务：<br>OS看完第二章</p><p>继续做DP经典题</p><h3 id="博弈DP-MiniMax：-能得到的是maximize-the-minimum-gain"><a href="#博弈DP-MiniMax：-能得到的是maximize-the-minimum-gain" class="headerlink" title="博弈DP MiniMax： 能得到的是maximize the minimum gain"></a><strong>博弈DP MiniMax</strong>： 能得到的是maximize the minimum gain</h3><p>Coins in a Line 有取巧的return n % 3 != 0 ;办法<br>Coins in a Line II： 带有具体值的Conins in a Line  有两种方法：top-down and bottom-up<br>375 Guess Number Higher or Lower II <em>需要重做</em><br>Flip Game 1 2</p><pre><code>- 1是2的一个引子- </code></pre><p>Nim game 三个选择的Coins 取巧办法%4</p><p>Palindrome Partitioning II<br>Burst Balloons<br>Scramble String</p><p>Longest Common Subsequence<br>One Edit Distance<br>Edit Distance<br>Minimum insertions to form a palindrome<br>WildCard Matching<br>Regular Expression Mathcing<br>Word Break<br>Word Break II<br>Interleaving String<br>Bomb Enemy</p><p>背包系列</p>]]></content>
     
     <summary type="html">
     

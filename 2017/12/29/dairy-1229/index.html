@@ -1,0 +1,67 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> dairy-1229 · Yutong Han's Blog</title><meta name="description" content="dairy-1229 - Yutong Han"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://www.yutong-han.net/atom.xml" title="Yutong Han's Blog"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.jpg" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">ABOUT</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">dairy-1229</h1><div class="post-info">Dec 29, 2017</div><div class="post-content"><ul>
+<li><p>分割类DP</p>
+<ul>
+<li><p>Maximum Subarray</p>
+<ul>
+<li>一个模版</li>
+<li>Math.max(cur+nums[i],nums[i])</li>
+<li>Math.max(cur,max)</li>
+</ul>
+</li>
+<li><p>Maximum Product Subarray</p>
+<ul>
+<li>注意乘法和加法不同在于最大值可能通过最小值乘负数得来，所以要维护最大值和最小值，同时正负的时候要进行你不同操作</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>Best Time to Buy and Sell Stock 系列</p>
+<ul>
+<li>I<ul>
+<li>一次买卖： max=Math.max(max,nums[i]-min); min = Math.min(min, nums[i]);</li>
+</ul>
+</li>
+<li>II<ul>
+<li>无数次买卖，只要后面一个比前一个高就买卖</li>
+</ul>
+</li>
+<li>III （需要重做）<ul>
+<li>最多两次买卖</li>
+</ul>
+</li>
+<li>IV  （需要重做）<ul>
+<li>最多k次</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Longest Common Substring </p>
+<ul>
+<li>最长公共子串（要求连续） 扫描一遍即可</li>
+</ul>
+</li>
+<li>Longest Common Subsequence<ul>
+<li>最长公共子序列 <ul>
+<li>方法一DP dp[A.length()][B.length()] dp[i][j]={dp[i-1][j-1]+1 if A[i]=B[j]}{Max(dp[i-1][j],dp[i][j-1])}</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Longest Continuous Increasing Subsequence<ul>
+<li>套路其实和Maximum Subarray一样但是更简单</li>
+</ul>
+</li>
+<li>Longest Increasing Subsequence<ul>
+<li>方法一dp </li>
+</ul>
+</li>
+<li>Number of LIS<ul>
+<li>保留两个dp数组 </li>
+<li>len[] 和LIS中的dp一样 保存到当前位置的最长增序列的长度</li>
+<li>count[] 保存到当前位置的最长增序列的数量， 如果len[i]==len[j]+1的时候说明有重复的 count[i]+=count[j]</li>
+</ul>
+</li>
+</ul>
+</div></article></div></main><footer><div class="paginator"><a href="/2017/12/27/OS-2/" class="next">NEXT</a></div><div class="copyright"><p>© 2017 <a href="http://www.yutong-han.net">Yutong Han</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-111086460-1",'auto');ga('send','pageview');</script></body></html>
