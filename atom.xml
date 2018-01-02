@@ -39,9 +39,9 @@
     <link href="http://www.yutong-han.net/2018/01/01/spark-3/"/>
     <id>http://www.yutong-han.net/2018/01/01/spark-3/</id>
     <published>2018-01-02T07:34:20.531Z</published>
-    <updated>2018-01-02T08:17:35.000Z</updated>
+    <updated>2018-01-02T08:27:36.753Z</updated>
     
-    <content type="html"><![CDATA[<p>“A fast and general engine for large-scale data processing”<br><a id="more"></a></p><p><img src="/images/sparkcontext.png" alt=""></p><ul><li>Drive Program : develop</li><li>cluster manager (Spark,YARN)</li><li>Executor : automantically </li></ul><ul><li>“Run programs up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk”</li><li>DAG Engine (directed acyclic graph) optimizes workflows</li><li>Built around one main concept: the Resilient Distributed Dataset(RDD)</li></ul><h4 id="Components-of-Spark"><a href="#Components-of-Spark" class="headerlink" title="Components of Spark"></a>Components of Spark</h4><p><img src="/images/sparkcomponent.png" alt=""></p><ul><li>Spark core deals with the basics of dealing with RDD</li><li>Spark streaming: real time data streams</li><li>SQL : database</li><li>MLLib : Machine learning</li><li>Graphx : graph</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>“A fast and general engine for large-scale data processing”<br><a id="more"></a></p><p><img src="/images/sparkcontext.png" alt=""></p><ul><li>Drive Program : develop</li><li>cluster manager (Spark,YARN)</li><li>Executor : automantically </li></ul><ul><li>“Run programs up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk”</li><li>DAG Engine (directed acyclic graph) optimizes workflows</li><li>Built around one main concept: the Resilient Distributed Dataset(RDD)</li></ul><h4 id="Components-of-Spark"><a href="#Components-of-Spark" class="headerlink" title="Components of Spark"></a>Components of Spark</h4><p><img src="/images/sparkcomponent.jpg" alt=""></p><ul><li>Spark core deals with the basics of dealing with RDD</li><li>Spark streaming: real time data streams</li><li>SQL : database</li><li>MLLib : Machine learning</li><li>Graphx : graph</li></ul>]]></content>
     
     <summary type="html">
     
