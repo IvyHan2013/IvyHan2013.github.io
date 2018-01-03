@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 操作系统复习笔记 03 · Yutong Han's Blog</title><meta name="description" content="操作系统复习笔记 03 - Yutong Han"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://www.yutong-han.net/atom.xml" title="Yutong Han's Blog"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.jpg" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">ABOUT</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">操作系统复习笔记 03</h1><div class="post-info">Jan 2, 2018</div><div class="post-content"><p>进程<br><a id="more"></a></p>
+<h3 id="Process"><a href="#Process" class="headerlink" title="Process"></a>Process</h3><ul>
+<li>A process is a program in execution.</li>
+<li>A process is more than the program code, sometimes knowns as the <strong>text section</strong></li>
+<li>It also includes the current activity, represented by the value of the <strong>program counter</strong> and the contenxts of the processor’s registers</li>
+<li>A process also includes <strong>stacks</strong> contains temporary data(function parameters, return address and local variables)</li>
+<li>and a <strong>data section</strong> contains global variables.</li>
+<li>A process may also include a <strong>heap</strong>, which is memory that is dynamically allocated during process runtime.</li>
+</ul>
+<p><img src="/images/PIM.jpg" alt="Process in Memory"></p>
+<h3 id="Process-State"><a href="#Process-State" class="headerlink" title="Process State"></a>Process State</h3><p>![Diagram of process state(/images/DPS.png)</p>
+<h4 id="Process-Control-Block-进程控制块"><a href="#Process-Control-Block-进程控制块" class="headerlink" title="Process Control Block(进程控制块)"></a>Process Control Block(进程控制块)</h4><ul>
+<li>Each process is represented in the operating syetem by a <strong>process control block(PCB)</strong> <ul>
+<li><strong>Process state</strong>: <strong>new</strong>, <strong>ready</strong>, <strong>running</strong>, <strong>waiting</strong>, <strong>halted</strong> and so on.</li>
+<li><strong>Program counter</strong>: The counter indicates the address of the next instruction to be execyted for this process</li>
+<li><strong>CPU registers</strong>: Include <strong>accumulators</strong>, <strong>index registers</strong>, <strong>stack pointers</strong>, and <strong>general-purpose registers</strong> plus any <strong>condition-code information</strong>. These infomation must be saves when an interrput occurs,to allow the process to be continued correctly afterward.</li>
+<li><strong>CPU-scheduling information</strong>: Include <strong>process priority</strong>, <strong>pointers to scheduling queues</strong></li>
+<li><strong>Memory-management informatiom</strong>: Include such items as the value of the base and <strong>limit registers</strong> and the <strong>page tables</strong> or the <strong>segment tables </strong></li>
+<li><strong>Accounting information</strong>: <strong>CPU and real time used</strong>, <strong>time limit</strong>, <strong>account numbers</strong>, <strong>job or process numbers</strong></li>
+<li><strong>I/O status information</strong> </li>
+</ul>
+</li>
+</ul>
+<p>###Threads</p>
+<ul>
+<li>PCB is extended to include information for each thread.</li>
+</ul>
+<h3 id="Process-respresentation-in-Linux"><a href="#Process-respresentation-in-Linux" class="headerlink" title="Process respresentation in Linux"></a>Process respresentation in Linux</h3><p>通过一个task_structure的双向链表来保存</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2018/01/03/dairy-0103/" class="prev">上一篇</a><a href="/2018/01/02/dairy-0102/" class="next">下一篇</a></div><div class="copyright"><p>© 2017 - 2018 <a href="http://www.yutong-han.net">Yutong Han</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-111086460-1",'auto');ga('send','pageview');</script></body></html>

@@ -1,2 +1,36 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Dairy-2018-01-02 · Yutong Han's Blog</title><meta name="description" content="Dairy-2018-01-02 - Yutong Han"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://www.yutong-han.net/atom.xml" title="Yutong Han's Blog"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.jpg" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">ABOUT</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Dairy-2018-01-02</h1><div class="post-info">Jan 2, 2018</div><div class="post-content"><p>每日学习日记 2018-01-02<br><a id="more"></a><br>2018年啦！继续加油！元旦小小的浪了两天就看看了scala， 今天回来开始继续刷题！</p>
-</div></article></div></main><footer><div class="paginator"><a href="/2018/01/01/spark-3/" class="next">下一篇</a></div><div class="copyright"><p>© 2017 - 2018 <a href="http://www.yutong-han.net">Yutong Han</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-111086460-1",'auto');ga('send','pageview');</script></body></html>
+<h4 id="19-Remove-Nth-Node-From-End-of-List"><a href="#19-Remove-Nth-Node-From-End-of-List" class="headerlink" title="19.Remove Nth Node From End of List"></a><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/" target="_blank" rel="noopener">19.Remove Nth Node From End of List</a></h4><ul>
+<li>两个指针 fast and slow maintain n gap</li>
+<li>同样注意要加一个dummy head</li>
+</ul>
+<h4 id="161-One-Edit-Distance"><a href="#161-One-Edit-Distance" class="headerlink" title="161. One Edit Distance"></a><a href="https://leetcode.com/problems/one-edit-distance/description/" target="_blank" rel="noopener">161. One Edit Distance</a></h4><ul>
+<li>求两个字符串的编辑距离是否等于一</li>
+<li>如果长度差大于1 肯定false</li>
+<li>如果某一位置不一样<ul>
+<li>Insert or Delete： 那么长的string从下一位开始的substring等于短的string从当前位置开始的substring</li>
+<li>replace 从下一个开始的字串相等</li>
+</ul>
+</li>
+<li>最后返回 |length1-length2|==1</li>
+</ul>
+<h4 id="72-Edit-Distance"><a href="#72-Edit-Distance" class="headerlink" title="72. Edit Distance"></a><a href="https://leetcode.com/problems/edit-distance/description/" target="_blank" rel="noopener">72. Edit Distance</a></h4><p>编辑距离<br>a) Insert a character<br>b) Delete a character<br>c) Replace a character</p>
+<p>有一个很好的讲这个的slide <a href="https://web.stanford.edu/class/cs124/lec/med.pdf" target="_blank" rel="noopener">Edit Distance</a></p>
+<ul>
+<li><p>For two string</p>
+<ul>
+<li>X of length n</li>
+<li>Y of length m</li>
+</ul>
+</li>
+<li><p>Define D(i,j)</p>
+<ul>
+<li>the edit distance between X[1..i] and Y[1..j] </li>
+<li>The!edit!distance!between!X!and!Y!is!thus!D(n,m)</li>
+</ul>
+</li>
+<li><p>Bottom up DP to solve this problem</p>
+</li>
+</ul>
+<p><img src="/images/editdistance.jpg" alt=""><br>(In Levenshtein distance substitution cost 2)</p>
+<h4 id="114-Flatten-Binary-Tree-to-Linked-List"><a href="#114-Flatten-Binary-Tree-to-Linked-List" class="headerlink" title="114. Flatten Binary Tree to Linked List"></a><a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/" target="_blank" rel="noopener">114. Flatten Binary Tree to Linked List</a></h4><p>后序遍历， 只写了递归的 没写迭代的，以后补上</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2018/01/02/OS-3/" class="prev">上一篇</a><a href="/2018/01/01/spark-3/" class="next">下一篇</a></div><div class="copyright"><p>© 2017 - 2018 <a href="http://www.yutong-han.net">Yutong Han</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-111086460-1",'auto');ga('send','pageview');</script></body></html>

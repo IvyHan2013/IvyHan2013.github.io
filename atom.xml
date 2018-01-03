@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yutong-han.net/"/>
-  <updated>2018-01-02T08:16:58.200Z</updated>
+  <updated>2018-01-03T18:51:54.746Z</updated>
   <id>http://www.yutong-han.net/</id>
   
   <author>
@@ -17,13 +17,49 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Dairy-2018-01-03</title>
+    <link href="http://www.yutong-han.net/2018/01/03/dairy-0103/"/>
+    <id>http://www.yutong-han.net/2018/01/03/dairy-0103/</id>
+    <published>2018-01-03T18:32:14.888Z</published>
+    <updated>2018-01-03T18:51:54.746Z</updated>
+    
+    <content type="html"><![CDATA[<p>每日学习日记 2018-01-03<br><a id="more"></a></p><h4 id="44-Wildcard-Matching"><a href="#44-Wildcard-Matching" class="headerlink" title="44. Wildcard Matching"></a><a href="https://leetcode.com/problems/wildcard-matching/description/" target="_blank" rel="noopener">44. Wildcard Matching</a></h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每日学习日记 2018-01-03&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统复习笔记 03</title>
+    <link href="http://www.yutong-han.net/2018/01/02/OS-3/"/>
+    <id>http://www.yutong-han.net/2018/01/02/OS-3/</id>
+    <published>2018-01-03T05:49:09.681Z</published>
+    <updated>2018-01-03T18:31:52.112Z</updated>
+    
+    <content type="html"><![CDATA[<p>进程<br><a id="more"></a></p><h3 id="Process"><a href="#Process" class="headerlink" title="Process"></a>Process</h3><ul><li>A process is a program in execution.</li><li>A process is more than the program code, sometimes knowns as the <strong>text section</strong></li><li>It also includes the current activity, represented by the value of the <strong>program counter</strong> and the contenxts of the processor’s registers</li><li>A process also includes <strong>stacks</strong> contains temporary data(function parameters, return address and local variables)</li><li>and a <strong>data section</strong> contains global variables.</li><li>A process may also include a <strong>heap</strong>, which is memory that is dynamically allocated during process runtime.</li></ul><p><img src="/images/PIM.jpg" alt="Process in Memory"></p><h3 id="Process-State"><a href="#Process-State" class="headerlink" title="Process State"></a>Process State</h3><p>![Diagram of process state(/images/DPS.png)</p><h4 id="Process-Control-Block-进程控制块"><a href="#Process-Control-Block-进程控制块" class="headerlink" title="Process Control Block(进程控制块)"></a>Process Control Block(进程控制块)</h4><ul><li>Each process is represented in the operating syetem by a <strong>process control block(PCB)</strong> <ul><li><strong>Process state</strong>: <strong>new</strong>, <strong>ready</strong>, <strong>running</strong>, <strong>waiting</strong>, <strong>halted</strong> and so on.</li><li><strong>Program counter</strong>: The counter indicates the address of the next instruction to be execyted for this process</li><li><strong>CPU registers</strong>: Include <strong>accumulators</strong>, <strong>index registers</strong>, <strong>stack pointers</strong>, and <strong>general-purpose registers</strong> plus any <strong>condition-code information</strong>. These infomation must be saves when an interrput occurs,to allow the process to be continued correctly afterward.</li><li><strong>CPU-scheduling information</strong>: Include <strong>process priority</strong>, <strong>pointers to scheduling queues</strong></li><li><strong>Memory-management informatiom</strong>: Include such items as the value of the base and <strong>limit registers</strong> and the <strong>page tables</strong> or the <strong>segment tables </strong></li><li><strong>Accounting information</strong>: <strong>CPU and real time used</strong>, <strong>time limit</strong>, <strong>account numbers</strong>, <strong>job or process numbers</strong></li><li><strong>I/O status information</strong> </li></ul></li></ul><p>###Threads</p><ul><li>PCB is extended to include information for each thread.</li></ul><h3 id="Process-respresentation-in-Linux"><a href="#Process-respresentation-in-Linux" class="headerlink" title="Process respresentation in Linux"></a>Process respresentation in Linux</h3><p>通过一个task_structure的双向链表来保存</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;进程&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Dairy-2018-01-02</title>
     <link href="http://www.yutong-han.net/2018/01/02/dairy-0102/"/>
     <id>http://www.yutong-han.net/2018/01/02/dairy-0102/</id>
     <published>2018-01-02T08:02:57.646Z</published>
-    <updated>2018-01-02T08:16:58.200Z</updated>
+    <updated>2018-01-03T18:31:55.762Z</updated>
     
-    <content type="html"><![CDATA[<p>每日学习日记 2018-01-02<br><a id="more"></a><br>2018年啦！继续加油！元旦小小的浪了两天就看看了scala， 今天回来开始继续刷题！</p>]]></content>
+    <content type="html"><![CDATA[<p>每日学习日记 2018-01-02<br><a id="more"></a><br>2018年啦！继续加油！元旦小小的浪了两天就看看了scala， 今天回来开始继续刷题！</p><h4 id="19-Remove-Nth-Node-From-End-of-List"><a href="#19-Remove-Nth-Node-From-End-of-List" class="headerlink" title="19.Remove Nth Node From End of List"></a><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/" target="_blank" rel="noopener">19.Remove Nth Node From End of List</a></h4><ul><li>两个指针 fast and slow maintain n gap</li><li>同样注意要加一个dummy head</li></ul><h4 id="161-One-Edit-Distance"><a href="#161-One-Edit-Distance" class="headerlink" title="161. One Edit Distance"></a><a href="https://leetcode.com/problems/one-edit-distance/description/" target="_blank" rel="noopener">161. One Edit Distance</a></h4><ul><li>求两个字符串的编辑距离是否等于一</li><li>如果长度差大于1 肯定false</li><li>如果某一位置不一样<ul><li>Insert or Delete： 那么长的string从下一位开始的substring等于短的string从当前位置开始的substring</li><li>replace 从下一个开始的字串相等</li></ul></li><li>最后返回 |length1-length2|==1</li></ul><h4 id="72-Edit-Distance"><a href="#72-Edit-Distance" class="headerlink" title="72. Edit Distance"></a><a href="https://leetcode.com/problems/edit-distance/description/" target="_blank" rel="noopener">72. Edit Distance</a></h4><p>编辑距离<br>a) Insert a character<br>b) Delete a character<br>c) Replace a character</p><p>有一个很好的讲这个的slide <a href="https://web.stanford.edu/class/cs124/lec/med.pdf" target="_blank" rel="noopener">Edit Distance</a></p><ul><li><p>For two string</p><ul><li>X of length n</li><li>Y of length m</li></ul></li><li><p>Define D(i,j)</p><ul><li>the edit distance between X[1..i] and Y[1..j] </li><li>The!edit!distance!between!X!and!Y!is!thus!D(n,m)</li></ul></li><li><p>Bottom up DP to solve this problem</p></li></ul><p><img src="/images/editdistance.jpg" alt=""><br>(In Levenshtein distance substitution cost 2)</p><h4 id="114-Flatten-Binary-Tree-to-Linked-List"><a href="#114-Flatten-Binary-Tree-to-Linked-List" class="headerlink" title="114. Flatten Binary Tree to Linked List"></a><a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/" target="_blank" rel="noopener">114. Flatten Binary Tree to Linked List</a></h4><p>后序遍历， 只写了递归的 没写迭代的，以后补上</p>]]></content>
     
     <summary type="html">
     
@@ -361,49 +397,6 @@
         &lt;p&gt;Spark 配置和简单的小程序 &lt;/p&gt;
 
       
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Dairy-2017-12-15</title>
-    <link href="http://www.yutong-han.net/2017/12/15/dairy-1215/"/>
-    <id>http://www.yutong-han.net/2017/12/15/dairy-1215/</id>
-    <published>2017-12-15T08:15:24.771Z</published>
-    <updated>2017-12-16T07:59:42.893Z</updated>
-    
-    <content type="html"><![CDATA[<p>今日任务：<br>链表题总结 递归 遍历 双指针 等等</p><p>面筋题中的链表题</p><p>由于链表和二叉树有一定的相似性，明日任务，复习二叉树总结二叉树的相关内容</p><p>今日完成情况：总结了一半，明天继续。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;今日任务：&lt;br&gt;链表题总结 递归 遍历 双指针 等等&lt;/p&gt;
-&lt;p&gt;面筋题中的链表题&lt;/p&gt;
-&lt;p&gt;由于链表和二叉树有一定的相似性，明日任务，复习二叉树总结二叉树的相关内容&lt;/p&gt;
-&lt;p&gt;今日完成情况：总结了一半，明天继续。&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Dairy-2017-12-14</title>
-    <link href="http://www.yutong-han.net/2017/12/14/dairy-1214/"/>
-    <id>http://www.yutong-han.net/2017/12/14/dairy-1214/</id>
-    <published>2017-12-14T08:40:22.148Z</published>
-    <updated>2017-12-15T08:13:38.528Z</updated>
-    
-    <content type="html"><![CDATA[<p>每日学习日记 2017-12-14<br><a id="more"></a><br>今日任务：<br>总结链表题目<br>写掉课程prj report<br>添加个人简历这部分report</p><p>完成情况：<br>只写掉了report<br>没有完成链表总结</p><p>每次写report的时候都觉得自己大概真的不适合读博，唉，语言表达能力也是能力的一种啊，继续加油吧。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;每日学习日记 2017-12-14&lt;br&gt;
     
     </summary>
     
